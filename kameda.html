@@ -9,23 +9,49 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
+            background-color: #f5f5f5;
         }
         header {
             background-color: #f8f9fa;
             padding: 10px;
             text-align: center;
         }
-        h1 {
+        header h1 {
             color: #333;
+            margin: 0;
+        }
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        header li {
+            margin: 0 15px;
+        }
+        header a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
         }
         section {
             margin-top: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <header>
         <h1>亀田の自己紹介ブログ</h1>
+        <ul>
+            <li><a href="https://example.com" target="_blank">Example サイト</a></li>
+            <li><a href="https://another-example.com" target="_blank">Another サイト</a></li>
+            <li><a href="https://yetanother-example.com" target="_blank">Yet Another サイト</a></li>
+        </ul>
     </header>
     <section>
         <h2>プロフィール</h2>
